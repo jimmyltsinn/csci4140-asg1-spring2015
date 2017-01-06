@@ -1,91 +1,91 @@
 {
     "info": {
-        "code": "csci4140", 
-        "title": "Web Instagram", 
-        "desc": "Assignment 1, Spring 2015", 
+        "code": "csci4140",
+        "title": "Web Instagram",
+        "desc": "Assignment 1, Spring 2015",
         "yr": 2015
-    }, 
+    },
     "tuto1": {
-        "title": "Tutorial 1", 
-        "desc": "Git, OpenShift", 
-        "date": "15 Jan 2015", 
+        "title": "Tutorial 1",
+        "desc": "Git, OpenShift",
+        "date": "15 Jan 2015",
         "filelist": [ {
-            "id": "tuto1-slides", 
-            "dir": 1, 
-            "filename": "tutorial1.pdf", 
-            "title": "Slides", 
+            "id": "tuto1-slides",
+            "dir": "csci4140-2015spring", 
+            "filename": "tutorial1.pdf",
+            "title": "Slides",
             "type": "file-pdf-o"
         }, {
-            "id": "tuto1-supp", 
-            "dir": 1, 
-            "filename": "tutorial1_git_windows.pdf", 
-            "title": "Supplement: Git on Windows", 
+            "id": "tuto1-supp",
+            "dir": "csci4140-2015spring", 
+            "filename": "tutorial1_git_windows.pdf",
+            "title": "Supplement: Git on Windows",
             "type": "file-pdf-o"
         }, {
-            "id": "tuto1-demo", 
-            "dir": 1, 
-            "filename": "tutorial1_openshift.pdf", 
-            "title": "Supplement: Demo Walkthrough", 
+            "id": "tuto1-demo",
+            "dir": "csci4140-2015spring", 
+            "filename": "tutorial1_openshift.pdf",
+            "title": "Supplement: Demo Walkthrough",
             "type": "file-pdf-o"
         } ]
-    }, 
+    },
     "tuto2": {
-        "title": "Tutorial 2", 
-        "desc": "HTML, Python, File Upload and More on OpenShift", 
-        "date": "22 Jan 2015", 
+        "title": "Tutorial 2",
+        "desc": "HTML, Python, File Upload and More on OpenShift",
+        "date": "22 Jan 2015",
         "filelist": [ {
-            "id": "tuto2-slides", 
-            "dir": 1, 
-            "filename": "tutorial2.pdf", 
-            "title": "Slides", 
+            "id": "tuto2-slides",
+            "dir": "csci4140-2015spring", 
+            "filename": "tutorial2.pdf",
+            "title": "Slides",
             "type": "file-pdf-o"
         }, {
-            "id": "tuto2-code", 
+            "id": "tuto2-code",
             "dir": 1,
-            "filename": "tutorial2_code.zip", 
-            "title": "Sample Code", 
+            "filename": "tutorial2_code.zip",
+            "title": "Sample Code",
             "type": "file-code-o"
         } ]
-    }, 
+    },
     "tuto3": {
-        "title": "Tutorial 3", 
-        "desc": "ImageMagick, Database and Debugging", 
-        "date": "29 Jan 2015", 
+        "title": "Tutorial 3",
+        "desc": "ImageMagick, Database and Debugging",
+        "date": "29 Jan 2015",
         "filelist": [ {
-            "id": "tuto3-slides", 
-            "dir": 1, 
-            "filename": "tutorial3.pdf", 
-            "title": "Slides", 
+            "id": "tuto3-slides",
+            "dir": "csci4140-2015spring", 
+            "filename": "tutorial3.pdf",
+            "title": "Slides",
             "type": "file-pdf-o"
         }, {
-            "id": "tuto3-code", 
-            "dir": 1, 
-            "filename": "tutorial3_code.zip", 
-            "title": "Sample Code", 
+            "id": "tuto3-code",
+            "dir": "csci4140-2015spring", 
+            "filename": "tutorial3_code.zip",
+            "title": "Sample Code",
             "type": "file-code-o"
         } ]
-    }, 
+    },
     "tuto4": {
-        "title": "Tutorial 4", 
-        "desc": "Cookies, Session, Hints on Assignment 1 and Submission Guideline", 
-        "date": "5 Feb 2015", 
+        "title": "Tutorial 4",
+        "desc": "Cookies, Session, Hints on Assignment 1 and Submission Guideline",
+        "date": "5 Feb 2015",
         "filelist": [ {
-            "id": "tuto4-slides", 
-            "dir": 1, 
-            "filename": "tutorial4.pdf", 
-            "title": "Slides", 
+            "id": "tuto4-slides",
+            "dir": "csci4140-2015spring", 
+            "filename": "tutorial4.pdf",
+            "title": "Slides",
             "type": "file-pdf-o"
         }, {
-            "id": "tuto4-code", 
-            "dir": 1, 
-            "filename": "tutorial4_code.zip", 
-            "title": "Sample Code", 
+            "id": "tuto4-code",
+            "dir": "csci4140-2015spring", 
+            "filename": "tutorial4_code.zip",
+            "title": "Sample Code",
             "type": "file-code-o"
         }, {
-            "id": "submissiontuto4-code", 
-            "dir": -1, 
-            "filename": "appsrv.cse.cuhk.edu.hk/~csci4140/course-homepage-4140/submission.php", 
-            "title": "Submission Guideline", 
+            "id": "submissiontuto4-code",
+            "dir": -1,
+            "filename": "appsrv.cse.cuhk.edu.hk/~csci4140/course-homepage-4140/submission.php",
+            "title": "Submission Guideline",
             "type": "file-text-o"
         } ]
     }

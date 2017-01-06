@@ -1,11 +1,11 @@
-function getFileInfo(obj) {
+function getFileInfo(rowObj, obj) {
     // $.get("cgi-bin/filelist.cgi?dir=" + obj.dir + "&fn=" + obj.filename, function (data, status) {
     //     try {
     //         ret = JSON.parse(data);
     //     } catch (err) {
     //         ret = null;
     //     }
-        var rowObj = $("#" + obj.id);
+        // var rowObj = $("#" + obj.id);
         var linkCol = $("<div></div>");
         linkCol.addClass("text-right column small-4");
         var modCol = $("<div></div>");
@@ -20,16 +20,19 @@ function getFileInfo(obj) {
         //     modCol.html(" ");
         // } else {
             if (obj.dir != -1) {
-                // modCol.append($("<small>Last Modified: " + ret.edittime + "</small>"));
+                modCol.append($("<small>Last Modified: " + "<em>cannot retrieval</em>" + "</small>"));
                 btn.html("Download");
                 btn.attr("href", obj.dir + "/" + obj.filename);
             } else {
-                btn.html("Go");
-                btn.attr("href", "http://" +  obj.filename);
+                // btn.html("Go");
+                // btn.attr("href", "http://" +  obj.filename);
+                btn.addClass("disabled");
+                btn.html("Unavailable");
+                modCol.html(" ");
             }
         // }
         linkCol.append(btn);
-        modCol.appendTo($("#"+obj.id+" div:first-child"));
+        modCol.appendTo(rowObj.children()[0]);
         linkCol.appendTo(rowObj);
     // });
 }
@@ -60,14 +63,14 @@ function loadFileList(jsonUrl) {
             var liObj = $("<li></li>")
             liObj.addClass("accordion-navigation");
 
-            id = data.info.code + '-' + data.info.yr + '-' + t;
+            var id = data.info.code + '-' + data.info.yr + '-' + t;
 
-            aObj = $("<a></a>");
+            var aObj = $("<a></a>");
             aObj.attr("href", "#" + id);
             aObj.html(" " + data[t].desc);
             aObj.append(" <small>" + data[t].title + "</small>");
             try {
-                dateObj = $("<span></span>");
+                var dateObj = $("<span></span>");
                 dateObj.addClass("label radius");
                 dateObj.addClass("success");
                 dateObj.html("Today");
@@ -87,9 +90,10 @@ function loadFileList(jsonUrl) {
                 cnt++;
             }
             if (cnt == 0) {
-                alertObj = $("<div data-alert></div>");
+                var alertObj = $("<div data-alert></div>");
                 alertObj.addClass("alert-box info");
                 var tmp = Math.random() * 2;
+                var url;
                 if (tmp <= 1)
                     url = 'sandwich.png';
                 else
@@ -105,7 +109,7 @@ function loadFileList(jsonUrl) {
 }
 
 function addFile(target, file) {
-    type = file.type;
+    var type = file.type;
 
     file.id = file.dir + '-' + file.id
 
@@ -115,7 +119,7 @@ function addFile(target, file) {
     var titleObj = $("<div></div>");
     titleObj.addClass("columns small-8");
 
-    iconObj = $("<i></i>");
+    var iconObj = $("<i></i>");
     iconObj.addClass("fa");
     iconObj.addClass("fa-" + type);
     titleObj.html(file.title + " ");
@@ -125,5 +129,5 @@ function addFile(target, file) {
 
     rowObj.appendTo(target);
 
-    getFileInfo(file);
+    getFileInfo(rowObj, file);
 }

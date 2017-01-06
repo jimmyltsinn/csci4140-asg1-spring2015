@@ -1,81 +1,81 @@
 {
     "info": {
-        "code": "csci4140", 
-        "title": "Photo Album", 
-        "desc": "Assignment 1, Spring 2014", 
+        "code": "csci4140",
+        "title": "Photo Album",
+        "desc": "Assignment 1, Spring 2014",
         "yr": 2014
-    }, 
+    },
     "tuto1": {
-        "title": "Tutorial 1", 
-        "desc": "OpenShift", 
+        "title": "Tutorial 1",
+        "desc": "OpenShift",
         "date": "16 Jan 2014",
         "filelist": [ {
-                "id": "tuto1-slides", 
-                "dir": 0,
+                "id": "tuto1-slides",
+                "dir": "csci4140-2014spring",
                 "filename": "tuto1.pdf",
-                "type": "file-pdf-o", 
-                "title": "Slides", 
+                "type": "file-pdf-o",
+                "title": "Slides",
                 "desc": "N/A"
             }, {
                 "id": "tuto1-demo",
-                "dir": 0,
-                "filename": "tuto1_openshift_demo.pdf", 
-                "type": "file-pdf-o", 
-                "title": "Demo Walkthrough", 
+                "dir": "csci4140-2014spring",
+                "filename": "tuto1_openshift_demo.pdf",
+                "type": "file-pdf-o",
+                "title": "Demo Walkthrough",
                 "desc": "N/A"
             }
         ]
-    }, 
+    },
     "tuto2": {
-        "title": "Tutorial 2", 
-        "desc": "Assignment 1, HTML, Perl and Photo Upload", 
+        "title": "Tutorial 2",
+        "desc": "Assignment 1, HTML, Perl and Photo Upload",
         "filelist": [ {
                 "id": "tuto2-slides",
-                "dir": 0, 
-                "filename": "tuto2.pdf", 
-                "type": "file-pdf-o", 
-                "title": "Slides", 
+                "dir": "csci4140-2014spring", 
+                "filename": "tuto2.pdf",
+                "type": "file-pdf-o",
+                "title": "Slides",
                 "desc": "N/A"
             }, {
-                "id": "tuto2-code", 
-                "dir": 0, 
-                "filename": "tuto2_code.zip", 
-                "type": "file-code-o", 
+                "id": "tuto2-code",
+                "dir": "csci4140-2014spring", 
+                "filename": "tuto2_code.zip",
+                "type": "file-code-o",
                 "title": "Sample Code"
             }
         ]
-    }, 
+    },
     "tuto3": {
-        "title": "Tutorial 3", 
-        "desc": "Photo Upload (2), Database and Debugging", 
+        "title": "Tutorial 3",
+        "desc": "Photo Upload (2), Database and Debugging",
         "filelist": [ {
-            "id": "tuto3-slides", 
-            "dir": 0, 
-            "filename": "tuto3.pdf", 
-            "type": "file-pdf-o", 
+            "id": "tuto3-slides",
+            "dir": "csci4140-2014spring", 
+            "filename": "tuto3.pdf",
+            "type": "file-pdf-o",
             "title": "Slides"
         }, {
-            "id": "tuto3-code", 
-            "dir": 0, 
-            "filename": "tuto3_code.zip", 
-            "type": "file-code-o", 
+            "id": "tuto3-code",
+            "dir": "csci4140-2014spring", 
+            "filename": "tuto3_code.zip",
+            "type": "file-code-o",
             "title": "Sample Code"
         } ]
-    }, 
+    },
     "tuto4": {
-        "title": "Tutorial 4", 
-        "desc": "Cookies, Session, Hints on Assigment 1 and Submission Guidelide", 
+        "title": "Tutorial 4",
+        "desc": "Cookies, Session, Hints on Assigment 1 and Submission Guidelide",
         "filelist": [ {
-            "id": "tuto4-slides", 
-            "dir": 0, 
-            "filename": "tuto4.pdf", 
-            "type": "file-pdf-o", 
+            "id": "tuto4-slides",
+            "dir": "csci4140-2014spring", 
+            "filename": "tuto4.pdf",
+            "type": "file-pdf-o",
             "title": "Slides"
         }, {
-            "id": "tuto4-code", 
-            "dir": 0, 
-            "filename": "tuto4_code.zip", 
-            "type": "file-code-o", 
+            "id": "tuto4-code",
+            "dir": "csci4140-2014spring", 
+            "filename": "tuto4_code.zip",
+            "type": "file-code-o",
             "title": "Sample Code"
         } ]
     }
